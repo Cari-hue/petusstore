@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(147, 72, 125);
+    width: 100%;
+  
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+header ul{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header ul li{
+    margin: 10px;
+}
+
+img{
+    width:80px;
+    height: 80px;
+}
+h1 {
+    font-size: 24px;
+    color: rgb(84, 167, 95);
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 800;
+    font-style: normal;
+    
+    
+}
+.inicio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#contacto{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#contacto iframe{
+    padding: 10px;
+    margin: 10px;
+}
+
+h2{
+    font-size: medium;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-size: medium;
+    color: darkslategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100;
+    background-color: antiquewhite;
+    margin: 10px 0 10px 0;
+  
+}
+
+.estrella{
+
+width: 100%;
+height: 100%;
+padding: 10px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: center;
+justify-content:normal
+
+}
+
+.estrella p{
+    font-size: 14px;
+}
+
+.estella img{
+    border-radius: 50%;
+}
